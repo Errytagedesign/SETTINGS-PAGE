@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500;700&display=swap');
+:root {
+  /* previous color */
+  /* --stocka-main: #00b200; */
+
+  /* current color */
+  --stocka-main: #1b8381;
+
+  /* pakistan green, proposed color */
+  /* --stocka-main: #006600; */
+
+  --color-one: #fff;
+  --button-hover: #146866;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+.left-main {
+  background-color: var(--stocka-main);
+  color: var(--color-one);
+}
+.back-arrow-icon {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.back-arrow-icon i {
+  font-size: 2rem;
+}
+.back-arrow-icon a {
+  color: var(--white);
+}
+.back-arrow-icon a:hover {
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.589);
+}
+.welcome h1 {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+.welcome p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+.right-main {
+  background-color: var(--color-one);
+}
+.log-in-text {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+}
+.mail-wrap,
+.pass-wrap {
+  border: 1px solid #b7b7b7;
+  border-radius: 20px;
+}
+label {
+  color: #b7b7b7;
+}
+#email,
+#password {
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  border-radius: 20px 0 0 20px;
+}
+.wrong-mail,
+.wrong-pass {
+  color: rgb(238, 71, 71);
+  padding: 0 0.3em;
+  font-size: 24px;
+  transform: scale(0);
+  opacity: 0;
+  transition: 200ms;
+}
+.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+.green {
+  color: green;
+}
+#email:focus,
+#password:focus {
+  outline: none;
+  background-color: rgb(240, 240, 240);
+}
+.toggle-pass {
+  font-size: 24px;
+  color: #b7b7b7;
+  padding: 3px 8px 2px 8px;
+  border-radius: 0 20px 20px 0;
+  transition: 150ms;
+}
+.toggle-pass:hover {
+  background-color: rgb(240, 240, 240);
+}
+.bi-eye {
+  color: #777;
+}
+.remember {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  color: #b7b7b7;
+}
+#remember:hover,
+.remember:hover {
+  cursor: pointer;
+}
+.btn-wrap button {
+  padding: 9.6px 0;
+  border: none;
+  color: var(--color-one);
+  border-radius: 20px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--stocka-main);
+  font-family: Roboto;
+  font-weight: 700;
+  width: 100%;
+}
+.btn-wrap button:hover {
+  color: var(--color-one);
+  background-color: var(--button-hover);
+}
+.btn-wrap button:focus {
+  outline: none;
+}
+.btn-wrap button:disabled {
+  color: #ddd;
+  background-color: #7a9e9e;
+}
+.forgot-pass a {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9c9090;
+}
+.alt-log-in h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.alt-links {
+  width: 50px;
+  height: auto;
+  margin: 0 1em;
+}
+.reg {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #9c9090;
+}
+.reg a {
+  text-decoration: none;
+  color: var(--stocka-main);
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+/* mobile screens */
+@media (max-width: 769px) {
+  .back-arrow-icon {
+    left: 0px;
+  }
+  .log-in-text {
+    margin-top: 1em;
+  }
+  .toggle-pass:hover {
+    background-color: inherit;
+  }
+  .btn-wrap button {
+    width: 100%;
+  }
+
+  /* font sizes */
+  .remember,
+  .forgot-pass a,
+  .alt-log-in h3,
+  .reg,
+  #email::placeholder,
+  #password::placeholder {
+    font-size: 14px;
+  }
+  .welcome p {
+    font-size: 18px;
+  }
+  .back-arrow-icon {
+    font-size: 20px;
+  }
+  .log-in-text,
+  .welcome h1 {
+    font-size: 24px;
+  }
+  .toggle-pass {
+    font-size: 24px;
+    padding: 2px 7px 0 7px;
+  }
+}
+
+/* large screens */
+@media (min-width: 1023px) {
+  /* font sizes */
+  .remember,
+  .forgot-pass a,
+  .alt-log-in h3,
+  .reg,
+  #email::placeholder,
+  #password::placeholder {
+    font-size: 14px;
+  }
+  .welcome p {
+    font-size: 16px;
+  }
+  .back-arrow-icon {
+    font-size: 24px;
+  }
+  .log-in-text,
+  .welcome h1 {
+    font-size: 36px;
+  }
+}
+
+/* larger screens*/
+@media (min-width: 1440px) {
+  /* font sizes */
+  .remember,
+  .forgot-pass a,
+  .alt-log-in h3,
+  .reg,
+  #email::placeholder,
+  #password::placeholder {
+    font-size: 16px;
+  }
+  .welcome p {
+    font-size: 20px;
+  }
+  .back-arrow-icon {
+    font-size: 28px;
+  }
+  .log-in-text,
+  .welcome h1 {
+    font-size: 48px;
+  }
+}

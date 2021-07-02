@@ -1,0 +1,22 @@
+.help-center {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh !important;
+}
+
+.redish {
+    color: var(--color-500) !important;
+}
+
+.border-redish {
+    border-color: var(--color-500) !important;
+}
+
+.h-min-div {
+    min-height: 290px !important;
+}
+
+.append {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}

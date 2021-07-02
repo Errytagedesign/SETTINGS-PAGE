@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../root/assets/img/universal/stocka-icon.svg">
+
+  <!--SEARCH ENGINE DATA-->
+  <title>Stocka | Inventory Digital Solution</title>
+  <meta name="description"
+    content="Stocka is an inventory digital solution that takes account of your sales and stocks, calculates their profits or losses over a specific period of time and offer suggestions to build profits.">
+
+  <!-- OPEN GRAPH TAGS -->
+  <meta property="og:title" content="Stocka | Inventory Digital Solution" />
+  <meta property="og:description"
+    content="Stocka is an inventory digital solution that takes account of your sales and stocks, calculates their profits or losses over a specific period of time and offer suggestions to build profits." />
+  <meta property="og:url" content="Insert page URL" />
+  <meta property="og:image" content="Insert Link Preview URL" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- BOOTSTRAP CSS LINKS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- REQUIRED STYLESHEETS -->
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/header-footer.css">
+  <link rel="stylesheet" href="assets/css/sidebar.css">
+  <link rel="stylesheet" href="assets/css/orders.css">
+
+  <!-- FONT IMPORT FROM: GOOGLE FONTS -->
+
+  <!-- POPPINS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- START OF HEADER SECTION -->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="container header-inner">
+          <!-- Brand Logo -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="https://res.cloudinary.com/griffintech/image/upload/v1624907861/stocka-logo_v6nhsc.svg" alt="Stocka Logo">
+            </a>
+          </div>
+          <!-- Navigation -->
+          <nav class="nav">
+            <!-- Mobile Toggle Buttons -->
+  
+            <!-- Open Dropdown-->
+            <button class="toggle-menu toggle-open" type="button">
+              <i class="fas fa-bars"></i>
+            </button>
+            <!-- Close Dropdown-->
+            <button class="toggle-menu toggle-close" type="button">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="menu">
+              <ul class="menu-left">
+                <li class="menu-item menu-item-left"><a href="dashboard.html"><span class="sidebar-menu-icon"><i class="fas fa-chart-pie"></i></span> Overview</a></li>
+
+                <li class="menu-item menu-item-left"><a href="trade.html"><span class="sidebar-menu-icon"><i class="fas fa-chart-line"></i></span> Trade</a></li> 
+
+                <li class="menu-item menu-item-left"><a href="orders.html"><span class="sidebar-menu-icon"><i class="fas fa-file-invoice-dollar"></i></span> Orders</a></li>
+
+                <li class="menu-item menu-item-left"><a href="settings.html"><span class="sidebar-menu-icon"><i class="fas fa-cog"></i></span> Settings</a></li>
+              </ul>
+              <ul class="menu-right">
+                <li class="menu-item menu-item-right"><a href="profile.html"><span class="sidebar-menu-icon"><i class="fas fa-user"></i></span> Profile</a></li>
+                <li class="menu-item menu-item-right hidden"><a href="#">Log Out</a></li>
+                <li class="menu-item menu-item-right"><a href="sign-up.html" class="menu-btn">Log Out</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+  
+    <!-- END OF HEADER SECTION -->
+
+    <!-- START OF MOBILE BOTTOM MENU -->
+    <section class="menu-footer">
+      <div class="container menu-footer-inner">
+        <div class="dash-header-search">
+          <span class="search-icon"><i class="fas fa-search"></i></span>
+        </div>
+        <div class="dash-header-menu-item notification-button">
+          <a href="" type="button"><i class="far fa-bell"></i></a>
+          <span class="notification-count">
+            <div>5</div>
+          </span>
+        </div>
+        <div class="dash-header-search">
+          <a href="dashboard.html">
+            <span class="search-icon"><box-icon type='solid' name='home'></box-icon></span>
+          </a>
+        </div>
+        <div class="dash-header-menu-item">
+          <a href="profile.html" type="button">
+            <span class="user-profile-image">
+              <img src="./assets/img/dashboard/user-image-placeholder.png" alt="">
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- END OF MOBILE BOTTOM MENU -->
+
+  <!-- START OF DASHBOARD SIDEBAR -->  
+  <aside class="sidebar-container">
+    <div class="sidebar-inner">
+      <div class="sidebar-logo">
+        <div class="sidebar-logo-inner">
+          <a href="dashboard.html">
+            <img src="./assets/img/dashboard/stocka-logo.svg" alt="Stocka Logo">
+          </a>
+        </div>
+      </div>
+      <div class="sidebar-menu">
+        <ul class="sidebar-menu-list">
+          <li class="sidebar-menu-item">
+            <a href="dashboard.html">
+              <span class="sidebar-menu-icon"><i class="fas fa-chart-pie"></i></span>
+              <span class="sidebar-menu-name">Overview</span>
+            </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="trade.html">
+              <span class="sidebar-menu-icon"><i class="fas fa-chart-line"></i></span>
+              <span class="sidebar-menu-name">Trade</span>
+            </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="orders.html">
+              <span class="sidebar-menu-icon"><i class="fas fa-file-invoice-dollar"></i></span>
+              <span class="sidebar-menu-name">Orders</span>
+            </a>
+          </li>
+          <li class="sidebar-menu-item">
+            <a href="settings.html">
+              <span class="sidebar-menu-icon"><i class="fas fa-cog"></i></span>
+              <span class="sidebar-menu-name">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+  <!-- END OF DASHBOARD SIDEBAR --> 
+
+  <main class="main-content">
+
+  <!-- START OF DASHBOARD HEADER (DESKTOP) --> 
+    <section class="dash-header">
+      <div class="dash-header-inner">
+        <div class="dash-header-search">
+          <span class="search-icon"><i class="fas fa-search"></i></span>
+          <input type="search" name="search" placeholder="Enter Keywords" id="search">
+        </div>
+        <div class="dash-header-menu">
+          <ul class="dash-header-menu-list">
+            <li class="dash-header-menu-item notification-button">
+              <a href="" type="button"><i class="far fa-bell"></i></a>
+              <span class="notification-count">
+                <div>5</div>
+              </span>
+            </li>
+            <li class="dash-header-menu-item">
+              <a href="profile.html" type="button">
+                <span class="user-profile-image">
+                  <img src="./assets/img/dashboard/user-image-placeholder.png" alt="">
+                </span>
+              </a>
+            </li>
+            <li class="dash-header-menu-item user-name">
+              <a href="profile.html" type="button">John Doe</a>
+            </li>
+            <li class="dash-header-menu-item">
+            <li class="dash-header-menu-item dash-header-options">
+              <div href="" type="button"><i class="fas fa-chevron-down"></i>
+              </div>
+              <ul class="dash-header-dropdown">
+                <li>
+                  <span><i class="fas fa-user"></i></span>
+                  <a href="profile.html">Profile</a></li>
+                <li>
+                  <span><i class="fas fa-sign-out-alt"></i></span>
+                  <a href="" type="button">Log Out</a>
+                </li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- START OF DASHBOARD HEADER (DESKTOP) --> 
+
+
+
+
+<!-- ========================================================================== -->
+      <!-- INSERT YOUR CODE HERE (START) --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- INSERT YOUR CODE HERE (END) --> 
+<!-- ========================================================================== -->
+
+  </main>
+
+
+
+
+
+
+  <!-- BOOTSRAP JS SCRIPT -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script> -->
+
+   
+ <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/orders.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- LIVE URL: https://stocka-homepage.netlify.app/ -->

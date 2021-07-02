@@ -1,0 +1,214 @@
+/* =================================================== */
+/* HERO SECTION */
+/* =================================================== */
+
+.hero {
+    min-height: 20rem;
+    max-width: 90rem;
+    background-image: url(../img/about/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    margin: 0 auto;
+    
+}
+@media (max-width: 992px) {
+    .hero {
+        min-height: 20rem;
+    }
+}
+@media (max-width: 576px) {
+    .hero {
+        min-height: 15rem;
+        background-size: cover;
+        background-position: -4rem 0;
+    }
+}
+
+/* =================================================== */
+/* VALUES SECTION */
+/* =================================================== */
+.values-inner {
+    /* background-color: red; */
+    min-height: 0rem;
+}
+
+.values-inner h1, h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    padding: 5rem 0rem 2rem 0rem;
+    /* background-color: yellow; */
+}
+
+.values-inner h2 {
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.values-cards {
+    /* background-color: black; */
+    max-width: 40rem;
+    margin: 2rem auto;
+}
+
+.values-card {
+    background-color: #fff;
+    min-height: 27rem;
+    border: 0.1rem solid  var(--color-300);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.values-card h3 {
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.value-card-1 {
+    margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+    .values-inner h1, h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding: 4rem 0rem 1rem 0rem;
+        /* background-color: yellow; */
+    }
+    
+    .values-inner h2 {
+        padding: 1rem 0rem 4rem 0rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .values-inner h1, h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding: 3rem 0rem 0.5rem 0rem;
+        /* background-color: yellow; */
+    }
+    
+    .values-inner h2 {
+        padding: 0.5rem 0rem 3rem 0rem;
+    }
+
+    .values-card {
+        padding: 2rem;
+    }
+    
+}
+
+/* =================================================== */
+/* FEATURE 1 SECTION */
+/* =================================================== */
+
+.feature {
+    margin: 4rem 0rem;
+}
+.feature-inner {
+    max-width: 65rem;
+    margin: 0rem auto;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+.feature-content  {
+    background-color: var(--color-200);
+}
+.feature-content h3 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.feature-content p {
+    max-width: 25rem;
+}
+
+.feature-image {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+
+    .feature {
+        margin: 3rem 0rem;
+    }
+    .feature-inner {
+        justify-content: center;
+    }
+    .feature-image {
+        justify-content: center;
+    }
+    
+    .feature-content {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .feature-content p {
+        margin: 0rem auto;
+    }
+
+    .feature-content h3 {
+        font-size: 1.8rem;
+        line-height: 2rem; 
+        margin: 1rem 0rem;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .feature {
+        margin: 2rem 0rem;
+    }
+    .feature-content {
+        margin-top: 2rem;
+    }
+    .feature-content h3 {
+        font-size: 1.7rem;
+    }
+}
+
+
+/* =================================================== */
+/* FEATURE 2 SECTION */
+/* =================================================== */
+
+.feature2 {
+    margin: 4rem 0rem;
+}
+
+.feature-inner-2 {
+    flex-direction: row-reverse;
+}
+
+.cta-content h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.cta-content p {
+    max-width: 30rem;
+}
+
+.feature-image-2 {
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .feature-image-2 {
+        justify-content: center;
+    }
+
+    .cta-content h3 {
+        font-size: 2.3rem;
+        line-height: 2.8rem;
+    }
+}

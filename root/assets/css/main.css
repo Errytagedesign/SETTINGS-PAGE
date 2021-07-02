@@ -1,0 +1,107 @@
+/* =================================================== */
+/* BASE SETTINGS */
+/* =================================================== */
+
+
+:root {
+
+/* =================================================== */
+/* DEFAULT COLORS */
+/* =================================================== */
+    --color-100: #1b8381 !important;
+    --color-200: hsl(0, 0%, 100%) !important;
+    --color-300: hsl(0, 0%, 0%) !important;
+    --color-400: hsl(0, 0%, 40%) !important;
+    --color-500: hsl(0, 63%, 40%) !important;
+
+/* =================================================== */
+/* BOX SHADOW (BUTTONS, DROPDOWN MENU) */
+/* =================================================== */
+    --shadow-100: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.192);
+
+/* =================================================== */
+/* FONT FAMILY */
+/* =================================================== */
+    --font-100: 'Poppins', sans-serif;
+
+/* =================================================== */
+/* FONT WEIGHTS */
+/* =================================================== */
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+    --weight-800: 800;
+    --weight-900: 900;
+}
+
+.body {
+    max-width: 100%;
+    font-family: var(--font-100);
+    font-size: 1.1rem;
+    font-weight: var(--weight-500);
+}
+
+
+a {
+    color: var(--color-300);
+    line-height: 2rem;
+    font-weight: var(--weight-500);
+}
+a:hover,
+a:active {
+    transition: 0.5s linear;
+    color: var(--color-100);
+    font-weight: var(--weight-500);
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: var(--weight-700);
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: var(--weight-700);
+}
+p {
+    font-size: 1.1rem;
+    line-height: 1.57rem;
+    font-weight: var(--weight-400);
+}
+
+@media (max-width: 992px) {
+
+    h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: var(--weight-700);
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: var(--weight-700);
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: var(--weight-700);
+    }
+    h2 {
+        font-size: 1.7rem;
+        line-height: 2.3rem;
+        font-weight: var(--weight-700);
+    }
+    
+}

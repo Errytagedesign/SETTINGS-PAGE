@@ -1,0 +1,80 @@
+* {
+    overflow-x: hidden !important;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+.bg-green {
+    background-color: var(--color-100) !important;
+}
+
+.bg-red {
+    background-color: var(--color-500) !important;
+}
+
+.bg-black {
+    background-color: var(--color-300) !important;
+}
+
+.bg-white {
+    background-color: var(--color-200) !important;
+}
+
+.bg-grey {
+    background-color: var(--color-400) !important;
+}
+
+.text-green {
+    color: var(--color-100) !important;
+}
+
+.text-red {
+    color: var(--color-500) !important;
+}
+
+.text-white {
+    color: var(--color-200) !important;
+}
+
+.text-black {
+    color: var(--color-300) !important;
+}
+
+.text-grey {
+    color: var(--color-400) !important;
+}
+
+.btn-green {
+    background-color: var(--color-100) !important;
+    color: var(--color-200) !important;
+}
+
+.btn-white {
+    color: var(--color-100) !important;
+    background-color: var(--color-200) !important;
+}
+
+.btn-red {
+    background-color: var(--color-500) !important;
+    color: var(--color-200) !important;
+}
+
+.h-min-div {
+    min-height: 330px;
+}
+
+.mt-n2 {
+    margin-top: -0.75rem !important;
+}
+
+.bg-gray {
+    background-color: #F3F7FA;
+}
+
+.dashboard-content {
+    position: relative !important;
+    z-index: 0 !important;
+}

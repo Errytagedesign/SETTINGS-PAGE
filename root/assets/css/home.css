@@ -1,0 +1,308 @@
+/* =================================================== */
+/* HERO SECTION*/
+/* =================================================== */
+
+.hero {
+    max-width: 90rem;
+    min-height: 0rem;
+    margin: 0rem auto;
+    color: var(--color-200);
+    background-image: url(../img/home/homepage-1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-opacity {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.hero-inner {
+    min-height: 40rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-content {
+    min-height: 0rem;
+    max-width: 35rem;
+    position: relative;
+}
+.hero-content h1 {
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+    max-width: 30rem;
+}
+.hero-btn {
+    padding: 1rem 2.6rem;
+    font-weight: var(--weight-600);
+}
+.hero-btn:hover {
+    border-color: var(--color-200);
+    font-weight: var(--weight-600);
+}
+
+@media (max-width: 992px) {
+    .hero {
+        background-size: cover;
+    }
+    .hero-inner {
+        min-height: 30rem;
+    }
+    .hero-content {
+        max-width: 30rem;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        max-width: 25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-size: cover;
+        background-position: -6rem 0;
+    }
+}
+@media (max-width: 576px) {
+    .hero {
+        background-size: cover;
+        background-position: -16rem 0rem;
+        position: relative;
+    }
+    .hero-inner {
+        min-height: 25rem;
+        display: flex;
+        align-items: center;
+    }
+    .hero-content {
+        min-height: 0rem;
+        max-width: 60rem;
+        text-align: center;
+        position: relative;
+        z-index: 10;
+    }
+    .hero-content p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        max-width: 60rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .hero-btn {
+        padding: 0.8rem 2.2rem;
+    }
+}
+
+/* =================================================== */
+/* FEATURE 1 SECTION*/
+/* =================================================== */
+
+.feature-inner {
+    display: flex;
+    align-items: center;
+    min-height: 40rem;
+    flex-wrap: wrap;
+}
+.feature h2 {
+    margin-bottom: 1rem;
+}
+.feature p {
+    margin-bottom: 1rem;
+}
+.feature-list-item {
+    margin-left: -2rem;
+    padding: 0.4rem 0rem;
+}
+.feature-list-item i {
+    color: var(--color-100);
+    margin-right: 0.5rem;
+}
+
+
+@media (max-width: 992px) {
+    .feature-inner {
+        min-height: 30rem;
+    }
+
+    .feature-inner > * {
+        padding: 0.5rem 1rem;
+    }
+
+    .feature p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .feature-list-item {
+        padding: 0.2rem 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-inner {
+        flex-direction: column-reverse;
+        padding-top: 5rem;
+    }
+}
+
+/* =================================================== */
+/* FEATURE 2 SECTION*/
+/* =================================================== */
+
+.feature-inner-2 {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .feature-inner-2 {
+        flex-direction: column-reverse;
+        padding-top: 0rem;
+
+    }
+}
+
+/* =================================================== */
+/* PRODUCTS SECTION*/
+/* =================================================== */
+
+.products {
+    padding: 1rem 0rem 2rem 0rem;
+}
+.products-inner {
+    min-height: 43rem;
+}
+.products-header {
+    text-align: center;
+}
+.products-header h2 {
+    margin: 1rem 0rem;
+}
+.products-header p {
+    max-width: 30rem;
+    margin: 0rem auto 2rem auto;
+}
+.products-item {
+    margin: 1.5rem 0rem;
+    display: flex;
+}
+.products-icon {
+    margin-right: 1rem;
+    width: 6rem;
+    height: 4rem;
+    background-color: var(--color-200);
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.116);
+}
+.products-icon-inner {
+    width: 4rem;
+    height: 4rem;
+    padding: 0rem 0.4rem;
+    border-radius: 100%;
+}
+.products-icon-inner img {
+    width: 4rem;
+    height: auto;
+    margin-top: 0.4rem;
+}
+
+.products-item-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: var(--weight-600);   
+}
+
+@media (max-width: 576px) {
+
+    .products {
+        padding: 1rem 0rem 3rem 0rem;
+    }
+
+    .products-item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .products-icon {
+        margin-right: 0rem;
+        justify-self: center;
+        width: 5rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* =================================================== */
+/* CTA SECTION*/
+/* =================================================== */
+
+.cta {
+    background-color: var(--color-100);
+    max-width: 90rem;
+    min-height: 0rem;
+    margin: 0rem auto;
+}
+
+.cta-inner {
+    min-height: 15rem;
+    align-items: center;
+}
+.cta-inner h2 {
+    color: var(--color-200);
+}
+.cta-btn {
+    background-color: var(--color-200);
+    color: var(--color-100) !important;
+    font-weight: var(--weight-600);
+    padding: 1rem 2.6rem;
+}
+.cta-btn:hover {
+    font-weight: var(--weight-600);
+    background-color: var(--color-100);
+    border-color: var(--color-200);
+    color: var(--color-200) !important;
+}
+.cta-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .cta {
+        padding: 3rem 0rem;
+    }
+    .cta-inner h2 {
+        text-align: center;
+    }
+    .cta-button {
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .cta-btn {
+        padding: 0.8rem 2.2rem;
+    }
+}
+
+/* =================================================== */
+/* SECTION FADE IN SETTINGS*/
+/* =================================================== */
+
+.fade-in {
+    transition: 0.5s linear;
+    transform: translateY(10rem);
+    opacity: 0;
+}
+.activate-section {
+    transition: 0.5s linear;
+    transform: translateY(0rem);
+    opacity: 1;
+}

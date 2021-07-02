@@ -1,0 +1,272 @@
+/* ==========General Layout============ */
+
+:root {
+
+    --main-green: #1b8381; 
+    --white: #fff;
+    --font: "Roboto", sans-serif;
+    --black: #000;
+    --grey: #a7a5a5;
+    --success: #056905;
+    --error: #e40606;
+
+}
+
+
+aside {
+
+    background-color: var(--main-green);    
+    
+}
+
+
+
+
+/* =========Back arrow color===== */
+
+.back-arrow-icon{
+
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 2em 0 1em 0;
+}
+
+
+.back-arrow-icon a {
+    color: var(--white);
+}
+
+.back-arrow-icon a:hover {
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.589);
+}
+
+.back-arrow-icon i{
+    font-size: 2rem;
+  }
+
+
+
+
+
+/* ====================================
+
+        FORM & INPUTS
+   ==================================== */
+
+.form-container {
+
+    position: relative;
+}
+
+/* =========initail display property to hide the error message ===== */
+
+.form-container small{
+
+    visibility: hidden;
+}
+
+
+ /* ========= Position property for them icons ===== */
+  .form-container i {
+
+    position: absolute;
+    top: 65px;
+    right: 40px;
+    color: var(--grey);
+    visibility: hidden;
+}
+
+
+   /* ====set border color for input when input is corrects */
+
+   .form-container.success input{
+
+    border-color: var(--success);
+   }
+
+
+   /* ====set border color for input when input its incorrects */
+
+   .form-container.error input{
+
+    border-color: var(--error);
+   }
+
+
+ /* ====set color for checkmark icon when input is corrects */
+
+ .form-container.success i.fa-check-circle{
+
+        color: var(--success);
+        visibility: visible;
+    }
+
+
+   /* ====set color for exclamation icon when input its incorrects */
+
+   .form-container.error i.fa-exclamation-circle{
+
+        color: var(--error);
+        visibility: visible;
+   }
+
+   /* ====set color for error message */
+   .form-container.error small {
+
+    color: var(--error);
+    visibility: visible;
+}
+
+
+.form-container i.bi-eye-slash{
+
+    visibility: visible;
+    right: 15px;
+    position: absolute;
+    right: 18px;
+    top: 63px;
+    color: black;
+}
+  
+
+/* ========= submit button styles ===== */
+
+.btn {
+
+    background-color: var(--main-green);
+    box-shadow:  1px 7px 3px  rgb(180, 180, 180) ;
+    margin: 1em 0;
+    text-align: center;
+    font-family: var(--font);
+    color: var(--white);
+
+}
+
+.btn:hover{
+
+    background-color: #146866;
+    color: var(--white);
+    
+}
+
+
+
+
+/* =========Footer logo ===== */
+
+/* .stocka{
+
+    
+    margin: 3em 0;
+    
+} */
+
+.stocka1 {
+
+    font-family: var(--font);
+    font-weight: 200;
+}
+
+
+
+/* ===========Typography ============ */
+
+h1, 
+h2,
+h3 {
+
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 500;
+    
+    
+
+}
+
+
+h1 {
+
+    font-size: 3rem;
+}
+
+
+h6{
+
+    color: var(--grey);
+    font-weight: 400;
+    
+}
+
+
+p {
+    
+    color: var(--white);
+    font-size: 1.3rem;
+    margin-bottom: .5em;
+    font-family: var(--font);
+}
+
+/* =====Property settings for sign up text===== */
+.sign-up h2 {
+
+    color: var(--black);
+    font-weight: 500;
+    
+}
+
+/* =====Property settings for sign up paragraphy ===== */
+.sign-up p{
+
+    color: var(--grey);
+    font-family: var(--font);
+    
+}
+
+
+label {
+
+    margin: 1em 0;
+    font-family: var(--font);
+}
+
+
+a {
+
+    font-family: var(--font);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--grey);
+
+}
+
+a:hover {
+
+    color: var(--main-green);
+}
+
+h6 a{
+
+    font-weight: 700;
+    color: var(--main-green);
+}
+
+@media (min-width: 900px) {
+
+
+
+
+    aside h1 {
+
+        margin-top: 3em;
+    }
+
+   
+    
+    .stocka1{
+
+        margin-top: 6em;
+        padding-bottom: 13em;
+        
+    }
+}

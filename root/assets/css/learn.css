@@ -1,0 +1,323 @@
+:root {
+
+    --main-green: #1b8381; 
+    --white: #fff;
+    --font: "Poppins", sans-serif;
+    --black: #000;
+    --grey: #a7a5a5;
+   
+
+}
+
+body {
+
+    overflow-x: hidden; 
+}
+
+/* ===========Hero section style====== */
+.hero-section{
+
+    background-color: #e3e3e3;
+    padding-bottom: 3em;
+    
+}
+
+
+/* ==========Typography========= */
+
+h1,
+h2,
+h3,
+h4 {
+
+    font-family: var(--font)
+}
+
+h1 {
+
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+h3 {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+.hero-image {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Hero image.svg");
+    background-size: 100%;
+    height: 300px;
+    margin-top: 2em;
+    background-repeat: no-repeat;
+}
+
+
+/* ===========Invest 101 Section Columns Styles=========== */
+
+.Invest {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/What-is-investment.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #04C604;
+    
+    
+}
+
+.Stock {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Stock.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #FF5A86;
+    
+}
+
+.Commodity {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Comodity.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #FFAEC4;
+    
+    
+}
+
+
+
+/* ===========Trading essentials Section Columns Styles=========== */
+
+.Started {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Getting started.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #F0EBE6;
+    
+    
+}
+
+.Primer {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Primer-options.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #FFC757;
+    
+}
+
+.Risk{
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Risk Managment.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #ADCCBD;
+    
+    
+}
+
+
+
+
+/* ===========The library Section Columns Styles=========== */
+
+.Dividend {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Dividend.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #fff;
+    border: #a7a5a5 solid 1px;
+    
+    
+}
+
+.Portfolio {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/Portfolio.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #fff;
+    border: #a7a5a5 solid 1px;
+    
+}
+
+.ETF {
+
+    background-image: url("/Stocka-fe-pjt-102/root/assets/images/Learn-page/ETF.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 90vh;
+    padding: 1em 1em;
+    border-radius: 25px;
+    background-color: #fff;
+    border: #a7a5a5 solid 1px;
+    
+    
+}
+
+@media (min-width: 700px) {
+
+
+    .Started,
+    .Primer,
+    .Risk,
+    .Dividend,
+    .Portfolio,
+    .ETF,
+    .Commodity,
+    .Stock,
+    .Invest {
+
+        height: 80vh;
+        background-size: cover;
+    }
+}
+
+
+/* =======CSS rules for ipad ========= */
+@media all and (device-width: 768px) and 
+(device-height: 1024px) and (orientation:portrait) {
+    
+
+    .Started,
+    .Primer,
+    .Risk,
+    .Dividend,
+    .Portfolio,
+    .ETF,
+    .Commodity,
+    .Stock,
+    .Invest {
+
+        height: 50vh;
+        background-size: cover;
+    }
+
+}
+
+
+
+/* =======CSS rules for ipad pro ========= */
+@media all and (device-width: 1024px) and 
+(device-height: 1366px) and (orientation:portrait) {
+    
+
+    .Started,
+    .Primer,
+    .Risk,
+    .Dividend,
+    .Portfolio,
+    .ETF,
+    .Commodity,
+    .Stock,
+    .Invest {
+
+        height: 50vh;
+        background-size: cover;
+    }
+
+}
+
+
+
+@media (min-width: 767px) {
+
+    .hero-image {
+
+        
+        height: 500px;
+        
+    }
+    
+
+    /* .hero-section img{
+
+        width: 1300px; 
+        height: 450px;
+    } */
+
+    h1 {
+
+        font-size: 2.8rem;
+        font-weight: 500;
+    }
+    
+    h3 {
+    
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+
+
+   
+    .Started,
+    .Primer,
+    .Risk,
+    .Dividend,
+    .Portfolio,
+    .ETF,
+    .Commodity,
+    .Stock,
+    .Invest {
+
+        margin: 0 1em;
+        background-size: 75%;
+    }
+    
+    .Invest {
+
+        
+        background-size: 70%;
+    }
+
+    /* ===========Hero section style====== */
+
+}
+
+
